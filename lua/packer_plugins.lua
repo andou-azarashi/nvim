@@ -4,4 +4,7 @@ return require('packer').startup(function()
 
 	-- colorscheme
 	use 'phanviet/vim-monokai-pro'
+	
+	-- Configurations for Nvim LSP
+	use 'neovim/nvim-lspconfig' 
 end)
