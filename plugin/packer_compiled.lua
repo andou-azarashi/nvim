@@ -69,6 +69,11 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  gruvbox = {
+    loaded = true,
+    path = "/home/tendou/.local/share/nvim/site/pack/packer/start/gruvbox",
+    url = "https://github.com/gruvbox-community/gruvbox"
+  },
   ["nvim-lspconfig"] = {
     loaded = true,
     path = "/home/tendou/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
@@ -78,11 +83,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/tendou/.local/share/nvim/site/pack/packer/start/packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
-  },
-  ["vim-monokai-pro"] = {
-    loaded = true,
-    path = "/home/tendou/.local/share/nvim/site/pack/packer/start/vim-monokai-pro",
-    url = "https://github.com/phanviet/vim-monokai-pro"
   }
 }
 

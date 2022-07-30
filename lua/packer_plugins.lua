@@ -3,7 +3,7 @@ return require('packer').startup(function()
 	use 'wbthomason/packer.nvim'
 
 	-- colorscheme
-	use 'phanviet/vim-monokai-pro'
+	use 'gruvbox-community/gruvbox'
 	
 	-- Configurations for Nvim LSP
 	use 'neovim/nvim-lspconfig' 
