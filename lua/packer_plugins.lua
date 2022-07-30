@@ -4,7 +4,10 @@ return require('packer').startup(function()
 
 	-- colorscheme
 	use 'gruvbox-community/gruvbox'
-	
-	-- Configurations for Nvim LSP
-	use 'neovim/nvim-lspconfig' 
+
+	-- nvim-lsp-installer
+	use {
+	    "williamboman/nvim-lsp-installer",
+	    "neovim/nvim-lspconfig",
+}
 end)
