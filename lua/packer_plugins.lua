@@ -10,4 +10,6 @@ return require('packer').startup(function()
 	    "williamboman/nvim-lsp-installer",
 	    "neovim/nvim-lspconfig",
 }
+	-- nvim-tree
+	use {'kyazdani42/nvim-tree.lua'}
 end)
