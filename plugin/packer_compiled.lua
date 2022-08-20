@@ -76,11 +76,7 @@ _G.packer_plugins = {
   },
   ["nvim-lsp-installer"] = {
     loaded = true,
-<<<<<<< Updated upstream
-    path = "/home/tendou/.local/share/nvim/site/pack/packer/start/nvim-lsp-installer",
-=======
     path = "C:\\Users\\tendou\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-lsp-installer",
->>>>>>> Stashed changes
     url = "https://github.com/williamboman/nvim-lsp-installer"
   },
   ["nvim-lspconfig"] = {
@@ -90,7 +86,7 @@ _G.packer_plugins = {
   },
   ["nvim-tree.lua"] = {
     loaded = true,
-    path = "/home/tendou/.local/share/nvim/site/pack/packer/start/nvim-tree.lua",
+    path = "C:\\Users\\tendou\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-tree.lua",
     url = "https://github.com/kyazdani42/nvim-tree.lua"
   },
   ["packer.nvim"] = {
