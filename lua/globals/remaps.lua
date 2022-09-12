@@ -9,3 +9,4 @@ vim.api.nvim_set_keymap('i', 'jk', '<ESC>', options)
 
 vim.api.nvim_set_keymap('n', '<leader>m', '<cmd>NvimTreeToggle<cr>', {desc = 'Tree'})
 vim.api.nvim_set_keymap('n', '<leader>;', '<cmd>w<cr>', {desc = 'Save'})
+vim.api.nvim_set_keymap('n', '<leader>/', '<cmd>noh<cr>', {desc = 'Clear hl'})
