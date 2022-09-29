@@ -23,5 +23,5 @@ o.clipboard = 'unnamedplus'
 o.autochdir = true
 o.incsearch = true
 o.cursorline = true
-
+o.background = "dark"
 require "packer_plugins"
