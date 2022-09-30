@@ -74,11 +74,6 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
-  gruvbox = {
-    loaded = true,
-    path = "C:\\Users\\tendou\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\gruvbox",
-    url = "https://github.com/gruvbox-community/gruvbox"
-  },
   ["nvim-lsp-installer"] = {
     loaded = true,
     path = "C:\\Users\\tendou\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-lsp-installer",
@@ -98,6 +93,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\tendou\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
+  },
+  ["tokyonight.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\tendou\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\tokyonight.nvim",
+    url = "https://github.com/folke/tokyonight.nvim"
   }
 }
 

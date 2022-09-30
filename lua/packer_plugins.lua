@@ -3,7 +3,7 @@ return require('packer').startup(function()
 	use 'wbthomason/packer.nvim'
 
 	-- colorscheme
-	use 'gruvbox-community/gruvbox'
+    use 'folke/tokyonight.nvim'
 
 	-- nvim-lsp-installer
 	use {
